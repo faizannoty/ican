@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/app', function () {
     return view('dashboard.app');
 });
+Route::get('/setting', function () {
+    return view('setting.setting');
+});
